@@ -16,35 +16,43 @@
         <link rel="stylesheet" href="index.css">
       </head>
 <body >
-    <div style="background-image: url('image11.jpeg');no repeat">
-       <div class="container">
-        <h1>COFFEE HOUSE</h1>
-        <ul class="bg-succses text-white">
-          <ul class="nav justify-content-center">
-            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-              <a class="navbar-brand" href="#">
-                <img src="image6.jpeg" alt="no img"
-                class="rounded-circle" width="60px" height="60px"> </a>
-              <li class="nav-item"></li>
-              <br>
-              <br>
-              <div class="container" class="bg-brown text-white">
-                <nav class="navbar navbar-default sticky-nav fixednav ">
-                  <li class="nav-item"></li>
-                  <a href="#home" class="nav-link active" data-toggle="tab">HOME</a>
-                  <li class="nav-item"></li>
-                  <a href="#about" class="nav-link" data-toggle="tab">ABOUT</a>
-                  <li class="nav-item"></li>
-                  <a href="#menu" class="nav-link" data-toggle="tab">MENU</a>
-                  <li class="nav-item"></li>
-                  <a href="#gallery" class="nav-link" data-toggle="tab">GALLERY</a>
-                  <li class="nav-item"></li>
-                  <a href="#contact" class="nav-link" data-toggle="tab">CONTACT</a>
-                </nav>
-              </div>
-            </nav>
-          </ul>
-        </ul>
+    <header>
+        <!--nav bar-->
+        <nav class="navbar navbar-expand-lg fixed-top nav-menu">
+            <a href="#"><i class="fas fa-mug-hot fa-3x"></i></a>
+            <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#navbar">
+                <div class="bg-light bar1"></div>
+                <div class="bg-light bar2"></div>
+                <div class="bg-light bar3"></div>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end text-uppercase font-weight-bold" id="navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu">Price</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--end of navbar-->
+        <!--banner-->
+        <div class="text-light text-right banner">
+            <h1 class="display-4 text-center font-weight-bold heading">welcome to coffee time</h1>
+            <p class="main text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+        <!--end of banner-->
+    </header>
         <div class="tab-content">
           <div id="home" class="container tab-pane fade show active " aria-selected="false">
             <br>
